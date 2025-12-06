@@ -110,7 +110,6 @@ function scatter_plot(data,
             ////////////////////////////////////////////////////////////////////////
             ////////////////////////////////////////////////////////////////////////
             // Missing Part 4
-            // 👉 Missing Part 4: clear selected points + list
             d3.selectAll("circle").classed("selected", false);
 
             d3.select("#selected-list")
